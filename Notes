@@ -1,0 +1,109 @@
+RAM is used to execute/run the applications
+RAM is temporary storage. We store program instructions to be given to the machine
+To store some temporary data/ program data
+
+
+Domain Name Server [DNS] --> domain --> IP address --> Google Server
+Name[Variable] --- > Memory address ----> RAM:
+
+value 100  to be stored in the RAM.
+
+Decimal - binary --> Memory Address --> RAM
+
+# Variable : It is name given to a memory location address.
+# use of variable : it is used to store data or access the data which is already stored.
+
+int mobileNumber = 123456;
+
+- 123456 is the value or data
+- mobileNumber is the variable
+- int : it is data type
+
+                    123456
+mobileNumber ---> memory address - > 
+
+# types of data : number , character, boolean
+number :  
+    - decimal or floating : 10.5
+    - whole number : 10, 11 -, 0, -12
+character : A, &, H, s
+boolean : true, false
+
+
+decimal number 10 ---> binary 1010 -- > it will be stored in the memory.
+character ---> ASCII/UNICODE number --> binary
+A ---> 65 --> binary
+true --> 1 -->
+false --> 0 --> 
+
+
+# data types in java
+    - specifier what type of data we are putting in the variable
+    - it also specifies the memory requirement to put the value
+    - it specifies range of allowed values.
+    - differnetn datatypes available : byte, short, int, long, float, double, char, boolean
+
+8 bit --> 1 byte
+16 bits - > 2 bytes
+
+    123 = 100 + 20 + 3 = 10 * 10 + 2 * 10 + 3 * 10^0
+                        = 1 * 10 ^2 + 2 * 10^1 + 3 * 10^0
+
+    0 1 1 1 1 1 1 1 ---> 1 * 2^6 + 1*2^5 + 1*2^4 + 1 * 2^3 + 1*2^2 + 1*2^1 +  1*2^0
+                        = 64 + 32 + 16 + 8 + 4 + 2 +1
+                        = 127
+
+    MSB : Most significant bit: to represent sign the number
+    positive : 0
+    negaitve : 1
+
+    Whole  number:
+    byte : 1 bytes = 127
+    short : 2 bytes = 32767
+    int :   4 bytes = 24147
+    long : 8 bytes = 
+
+    floating number
+    float : 4 bytes
+    double : 8 bytes
+
+
+    int a  = 8; // 4 bytes
+
+    short b = 100; // 2 bytes : 32767
+
+    long 
+
+
+
+    byte, short, int, long, float, double, char
+
+    Arithmetic operators : +, -, *, /, %
+
+    operand1 operator operand2      =  result
+
+    byte,short, int, char (+,-, *,/, %) byte,short, int, char => int
+    byte, short, int, char, long (+,-, *,/, %) byte,short, int, char, long => long
+    byte,short, int, char, long,float (+,-, *,/, %) byte,short, int, char, long,float => float
+    byte,short,int,char,long,float, double (+,-, *,/, %) byte,short, int, char, long,float,doble => double
+
+
+    int
+    long
+    float
+    double
+
+
+# arithmetic operators are not allowed for boolean type
+# If we divide or take modulo of byte, short, int long, char by zero we get ArithmeticException divide by zero.
+# if we divide float or double by zero we get Infinity as a output
+# if we modulo a float or double by zero we get NaN[Not A Number] as a output
+#Expression evaluation :
+    - Expression evaluation will be from left to right
+    - It will follow standard BODMAS [ Brackets of Division Multiplication Add, Sub]
+
+# String concatenation operator +
+ + operator will perform mathematical addition when both the operands are of type number
+ + operator will perform string concatenation  when one the operands are of type String
+
+ # Assignment Operator =

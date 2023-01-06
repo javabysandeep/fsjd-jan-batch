@@ -45,4 +45,6 @@ class DataType {
     //double : 8 bytes
     // char : 2 bytes
     // boolean : 1 byte
+    String str = "java fullstack developer"; //48 bytes
+
 }
