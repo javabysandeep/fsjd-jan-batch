@@ -104,3 +104,63 @@ false --> 0 -->
  + operator will perform string concatenation  when one the operands are of type String
 
  # Assignment Operator =
+
+
+
+
+ # Control statements:
+    - theses helps us in control the flow of execution of the program
+  1. conditional statements : it will help us to either skip the execution of execute the lines
+    1. if- else
+        - syntax : if (condition) {
+                    //statements
+                 } else {
+                    //statements
+                 }
+        - if else both are keywords
+        - condition must be of type boolean
+             - direct value either true or false
+             - expression which results into boolean value e.g. 5 > 4---> true
+             - variable of type boolean
+             - function call which returns boolean value
+
+        - if condition is true then only of block will be executed
+        - else block will be executed when condition is false
+        - either if or else will be executed not both of them
+        - there should not be any independent statements in between if and else
+     - when to avoid if-else?
+        - if the number of comparisons are more than 3
+
+    2. switch
+
+  2. looping statements: it will repeat the execution of selected
+    1. for loop
+    2. while loop
+    3. do while
+
+  3. transfer statements : it will transfer the control from one locatin to another location inside the program
+    1. break
+    2. continue
+    3. return
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
