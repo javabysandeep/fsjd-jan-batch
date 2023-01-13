@@ -1,3 +1,5 @@
+package operators;
+
 public class TernaryOperator1 {
     public static void main(String[] args) {
         //unary operators: it wokrs only operand. ++, --, !, ~

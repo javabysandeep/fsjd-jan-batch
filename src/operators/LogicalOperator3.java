@@ -1,3 +1,5 @@
+package operators;
+
 public class LogicalOperator3{
     public static void main(String[] args) {
         //&& will not solve all the conditions if first false comes

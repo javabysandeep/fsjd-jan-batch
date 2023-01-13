@@ -1,3 +1,5 @@
+package operators;
+
 public class LogicalOperator2 {
     public static void main(String[] args) {
         // AND: both should be true then only it is true otherwise it is false

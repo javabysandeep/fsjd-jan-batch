@@ -1,3 +1,5 @@
+package operators;
+
 public class LogicalOperator1 {
     public static void main(String[] args) {
         // &&, &, ||, |, !, ^ 

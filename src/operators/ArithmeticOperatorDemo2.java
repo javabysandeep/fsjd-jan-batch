@@ -1,3 +1,5 @@
+package operators;
+
 public class ArithmeticOperatorDemo2 {
     public static void main(String[] args) {
         System.out.println(1 / 10);// Q=0 

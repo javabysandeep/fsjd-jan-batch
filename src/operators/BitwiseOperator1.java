@@ -1,3 +1,5 @@
+package operators;
+
 public class BitwiseOperator1 {
     public static void main(String[] args) {
         //bitwise operators: &, |, ^, ~, <<, >>, >>> 

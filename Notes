@@ -1,8 +1,6 @@
 RAM is used to execute/run the applications
 RAM is temporary storage. We store program instructions to be given to the machine
 To store some temporary data/ program data
-
-
 Domain Name Server [DNS] --> domain --> IP address --> Google Server
 Name[Variable] --- > Memory address ----> RAM:
 
@@ -92,7 +90,6 @@ false --> 0 -->
     long
     float
     double
-
 
 # arithmetic operators are not allowed for boolean type
 # If we divide or take modulo of byte, short, int long, char by zero we get ArithmeticException divide by zero.

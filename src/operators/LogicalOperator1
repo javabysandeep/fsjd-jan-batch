@@ -1,4 +1,4 @@
-public class LogicalOperator1 {
+public class operators.LogicalOperator1 {
     public static void main(String[] args) {
         // &&, &, ||, |, !, ^ 
         //AND, OR, NOT, XOR --> these keywords are not there in java
