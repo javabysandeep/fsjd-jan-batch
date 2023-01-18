@@ -4,6 +4,7 @@ public class Demo1 {
     public static void main(String[] args) {
         //looping, repeat, iterative,
         // for, while, do-while
+
         // for : when no. of iterations are known in advance then use for loop
         // while : when no. of iterations are not known in advance then use while loop
         // do-while : when no. of iterations are not known in advance,
