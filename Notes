@@ -134,20 +134,57 @@ false --> 0 -->
     2. switch
 
   2. looping statements: it will repeat the execution of selected
-    1. for loop
-    2. while loop
-    3. do while
+    1. for loop: no. of iterations are known in advance
+    2. while loop: no. of iterations are not known in advance
+    3. do while: no. of iterations are not known in advance but code is expected to execute at least once
 
   3. transfer statements : it will transfer the control from one locatin to another location inside the program
     1. break
     2. continue
     3. return
 
+ // transfer statements or jump statements: break, continue, return[keywords]
+        // control will be transferred from one location to another
+
+        // break :
+            //  it is keyword
+            // it must be used only in switch and loops otherwise we get CTE
+            // with the help of break, control will be transferred out  of the switch or loop
 
 
 
+        // continue :
+            // it is a keyword
+            //  it must be used only in the loops otherwise we get CTE
+            // with the help of continue, control will be transferred out  of the loop
+
+        //return :
+            // it is a keyword
+            // it must be used inside the method but must be the last statement in the method
+            // with the help of return, control will be transferred out of the method
 
 
+
+# JVM architecture
+
+JDL, JRE, JVM
+1. Write  java program
+2. Compile java program
+3. Byte code [.class]
+4. Class loader will load the class in the memory
+5. ByteCode verifier to verify the byte code
+6. Memory components
+    - heap
+    - java stack memory
+    - Class or Method memory area
+    - Native method area
+    - Native method stack area
+    - PC register
+ - Native method Interface
+ - Native method Library
+ - Java execution engine
+ - Intpreter
+ - JIT
 
 
 

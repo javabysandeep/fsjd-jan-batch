@@ -1,4 +1,4 @@
-package controlStatements.looping.patterns;
+package controlStatements.looping.forDemos.patterns;
 
 import java.util.Scanner;
 

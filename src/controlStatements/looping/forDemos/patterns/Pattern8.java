@@ -1,4 +1,4 @@
-package controlStatements.looping.patterns;
+package controlStatements.looping.forDemos.patterns;
 
 public class Pattern8 {
     public static void main(String[] args) {

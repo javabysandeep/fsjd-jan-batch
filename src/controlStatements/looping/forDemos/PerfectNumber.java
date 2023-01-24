@@ -1,4 +1,4 @@
-package controlStatements.looping;
+package controlStatements.looping.forDemos;
 
 public class PerfectNumber {
     public static void main(String[] args) {
