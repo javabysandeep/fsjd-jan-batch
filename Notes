@@ -190,6 +190,176 @@ JDL, JRE, JVM
 
 
 
+Class and Object:
+
+- Class : what, why, how to create class
+    - it is template, design, blueprint to create objects
+    - class word comes from Classification[Grouping, Categorization]
+    - We need class first to create objects
+    - With the help single class we can create any number of objects.
+    - Class structure, design will be stored in Class or Method memory.
+    - analogy of class : building floor
+    -syntax :
+            class ClassName {
+                //variables
+                //methods
+                //constructor
+                //blocks
+                //nested classes
+            }
+- Object : what, why, how to create object and use that
+    - It is an instance of a class
+    - It is an memory space allocated for class type data
+    - Instance is any memory space which is allocated at runtime.
+    - Every object is an instance but vice versa need to be true.
+    - Object is an memory allocation for class type data.
+    - Memory allocation is nothing but putting some data at runtime.
+    - Objects are stored in HEAP memory area.
+    - We need class first to create object.
+    - analogy: actual building construction
+    - Object occupies space/memory
+    - why ? wee need objects to represent real world physical/logical entities in the program
+    - How to create an Object?
+
+        Class Student {
+            int rollNumber;
+            String name;
+
+            void registerStudent(){}
+            void updateStudentDetails(){}
+            void deleteStudent(){}
+
+            public static void main(String args[]){
+
+                int variable = 40;
+                //date_type  referenceVariable = new data_type();
+                Student student = new Student();
+                //
+
+            }
+        }
+# Class components
+    - components which are defined inside the class.
+
+    class Demo {
+        //1. variable - [ Local, Instance, static]
+        //2. method - [instance method, static method]
+        //3. constructor- [ default, zero parameterized, parameterized]
+        //4. blocks - [instance block, static block ]
+        //5. nested class - [ static nested class, inner class, local inner class, Anonymous clas]
+    }
+    // 14 components
+    // what, why, types, how to use
+
+
+# variable :
+    - why to use it ?
+        to store the data or access the data which is already there in the memory [at runtime]
+    - what is it?
+        - it is a name given to a memory location address so that we can access the data from the memory easily
+    - how to use it?
+        - int variable = 30;
+        - SOP(variable);
+
+# Local variable:
+- what is a local variable ?
+    - It is a variable which is defined inside the method, constructor, blocks, method parameter, constructor param
+
+- What is the use of local variable?
+    - we use local variables to store temporary calculations, to store some intermediate results.
+
+- which memory area local variables are stored?
+    - Local variables are stored inside the Stack memory area.
+
+- Local variables are local to that particular method, constructor, block meaning local variables cannot be accessed outside.
+- It is compulsory to provide some initial for the local variable before they used.
+- Local variables will get the memory when the method, constructor, block is executed.
+- Local variables will be deleted when the method, constructor, block execution is complete.
+
+
+# Instance variable:
+- what is an instance variable ?
+    - It is a variable which is defined at class and outside of all the method, constructor, blocks, nested classes
+
+- What is the use of instance variable?
+    - we use instance variables to store data which is specific to an object[instance]
+
+- which memory area instance variables are stored?
+    - Instance variables are stored inside the HEAP memory area.
+
+- It is not compulsory to provide some initial value for the instance variable before they used as they get the default value.
+- Instance variables will get the memory when an object is created.
+- Instance variables will be deleted when the object is deleted/destroyed.
+
+- instance means object specific
+
+# Static variable:
+- what is a static variable ?
+    - It is a variable which is defined at class level with static keyword and outside of all the method, constructor, blocks, nested classes
+
+- What is the use of static variable?
+    - we use static variables to store data which is common for all the objects[instance]
+
+- which memory area static variables are stored?
+    - Static variables are stored inside the CLASS or METHOD memory area.
+
+- It is not compulsory to provide some initial value for the static variable before they used as they get the default value.
+- Static variables will get the memory when an class is loaded in the memory.
+- Static variables will be deleted when the class is unloaded from the memory
+- Static variables get the memory only once at the time class loading.
+- static means it is common for all the objects.
+- static variable value will not change from one object to another.
+
+# instance vs static
+    class Student {
+        int rollNumber;
+        String name;
+        int yearOfPassing;
+        String address;
+        String batch;
+        static String collegeName = "NIT Patna";
+
+        void addStudent(){}
+        void updateStudent(){}
+        void deleteStudent(){}
+        void readStudent(){}
+    }
+
+    // we have created an object of type student
+    Stduent student1 = new Student(1,"abc", 2023,"Pune","ENTC");
+    Stduent student2 = new Student(2,"xyz", 2022,"Mumbai","CS");
+    Stduent student3 = new Student(3,"xyz", 2022,"Mumbai","CS");
+    Stduent student4 = new Student(4,"xyz", 2022,"Mumbai","CS");
+    Stduent student5 = new Student(5,"xyz", 2022,"Mumbai","CS");
+    Stduent student6 = new Student(6,"xyz", 2022,"Mumbai","CS");
+    Stduent student7 = new Student(7,"xyz", 2022,"Mumbai","CS");
+    Stduent student8 = new Student(8,"xyz", 2022,"Mumbai","CS");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
