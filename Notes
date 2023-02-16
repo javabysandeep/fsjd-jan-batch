@@ -316,7 +316,7 @@ Class and Object:
         String name;
         int yearOfPassing;
         String address;
-        String batch;
+        String branch;
         static String collegeName = "NIT Patna";
 
         void addStudent(){}
@@ -336,6 +336,50 @@ Class and Object:
     Stduent student8 = new Student(8,"xyz", 2022,"Mumbai","CS");
 
 
+#2. Methods
+Q.1 what is a method in java?
+Ans. : It is a task/routine/set of instructions/ algorithm
+      - group of statements which are enclosed inside the curly braces which has name,
+        which might have input parameters and may return some output
+        Syntax : dataType nameOfMethod(input){
+                    //statements
+                }
+           Example: void displayCompanyName(){
+                        System.out.println("Company name : Google");
+                    }
+
+Q.2 Why do need a method in java?
+Ans. :
+    1. with the methods code is reduced.
+    2. Code duplication can be avoided
+    3. to represent some task in the programming
+
+Q.3 What are the different type of methods available in java?
+Ans.
+    1. instance method
+    2. static methods
+
+Q.4 What is an instance method?
+Ans.
+    It is a method which defined without static modifier
+    Example:            void displayCompanyName(){
+                            System.out.println("Company name : Google");
+                        }
+
+Q.5 why do need instance method?
+Ans. To represent object specific behaviour/task
+
+Q.6 how to access an instance method?
+Ans. We access instance method with the help of reference variable
+
+    method1 : no input - no output
+    method4 : input - output
+    method2 : input - no output
+    method3 : no input - output
+
+Q.7 What is an static method?
+Q.8 why do need static method?
+Q.9 how to access a static method?
 
 
 
